@@ -1,0 +1,9 @@
+name: my-first-project-php
+recipe: lamp
+config:
+  webroot: .
+services:
+  myservice:
+    type: php:8.0
+    via: nginx
+    webroot: www
